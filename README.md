@@ -10,9 +10,9 @@ First step is to obtain the live map from GitHub. You could download a simple zi
 ### Installation on Windows
 Download the latest apache binaries on [Apache Lounge](https://www.apachelounge.com/download/) (httpd-2.4.\*-win64-VC14.zip). Unpack it to somewhere. Open the configuration file (located in `conf/httpd.conf` in your favourite editor. **Change the following configs to match you paths:**
 
-* `ServerRoot "**c:/Path/To/Apache24**"`
-* `DocumentRoot "**C:/Path/To/PokeMobBotMap/src**"`
-* `\<Directory "**C:/Path/To/PokeMobBotMap/src**"\>`
+* `ServerRoot "c:/Path/To/Apache24"`
+* `DocumentRoot "C:/Path/To/PokeMobBotMap/src"`
+* `\<Directory "C:/Path/To/PokeMobBotMap/src"\>`
 
 You also need to **uncomment** (remove the hashtag) the following lines:
 
