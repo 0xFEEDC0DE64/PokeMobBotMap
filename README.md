@@ -1,6 +1,8 @@
 # PokeMobBotMap
 A browser map for [PokeMobBot](https://github.com/PocketMobsters/PokeMobBot) using the new websocket API.
 
+A public demo can be found [here](http://pokemap.localhorst.xyz/). Please be aware that my internet provider sometimes has outages. It may not be available at the moment.
+
 ## Installation
 I recomment using an apache webserver for serving the map because there is an websocket module that can help you to avoid using a second tcp port just for the websocket.
 The apache acts then as a "proxy" for the websocket api on `/websocket`.  
