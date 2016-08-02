@@ -1,4 +1,5 @@
 # PokeMobBotMap
+A browser map for [PokeMobBot](https://github.com/PocketMobsters/PokeMobBot) using the new websocket API.
 
 ## Installation
 I recomment using an apache webserver for serving the map because there is an websocket module that can help you to avoid using a second tcp port just for the websocket.
@@ -11,7 +12,7 @@ Download the latest apache binaries on [Apache Lounge](https://www.apachelounge.
 
 * ServerRoot "**c:/Path/To/Apache24**"
 * DocumentRoot "**C:/Path/To/PokeMobBotMap/src**"
-* <Directory "**C:/Path/To/PokeMobBotMap/src**">
+* \<Directory "**C:/Path/To/PokeMobBotMap/src**"\>
 
 You also need to **uncomment** (remove the hashtag) the following lines:
 
