@@ -8,7 +8,7 @@ The apache acts then as a "proxy" for the websocket api on `/websocket`.
 First step is to obtain the live map from GitHub. You could download a simple zip-archive [here](https://github.com/0xFEEDC0DE64/PokeMobBotMap/archive/master.zip).  Experienced users can `git clone` it.
 
 ### Installation on Windows
-Download the latest apache binaries on [Apache Lounge](https://www.apachelounge.com/download/) (httpd-2.4.*-win64-VC14.zip). Unpack it to somewhere. Open the configuration file (located in `conf/httpd.conf` in your favourite editor. **Change the following configs to match you paths:**
+Download the latest apache binaries on [Apache Lounge](https://www.apachelounge.com/download/) (httpd-2.4.\*-win64-VC14.zip). Unpack it to somewhere. Open the configuration file (located in `conf/httpd.conf` in your favourite editor. **Change the following configs to match you paths:**
 
 * ServerRoot "**c:/Path/To/Apache24**"
 * DocumentRoot "**C:/Path/To/PokeMobBotMap/src**"
